@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05dfc12e;
+}
+.main{
+    /* border: 1px solid; */
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(36,181,191);
+    position: relative;
+    overflow: hidden;
+}
+.whitebox{
+    width: 51%;
+    height: 97%;
+    position: absolute;
+    right: -24%;
+    top: 0%;
+    background-color: white;
+    transform: rotate(22deg);
+    border-radius: 1% 0% 0% 21%;
+}
+.pro{
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid;     */
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+}
+.lan{
+    /* width: 30%; */
+    /* height: 20%; */
+    /* border: 1px solid red;  */
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: 5px;  
+}
+.sets{
+    position: absolute;
+    top: 42%;
+    left: 11%;
+    /* width: 30%; */
+    /* height: 22%; */
+    /* border: 1px solid red; */
+   
+}
+.g1{
+    /* border: 1px solid; */
+    padding: 2% 4%;
+    margin: 6px;
+    color: white;
+    border-radius: 12px;
+    background-color: #000000de;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+
+}
+.tedcon{
+    width: 150px;
+   
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ted1{
+    
+    width: 130px;
+        height: 130px;
+        background-color: white;
+        border-radius: 50%;
+        /* position: absolute; */
+        top: 36%;
+        left: 46%;
+}
+.ted2{
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -10%;
+
+}
+.ted3{
+    width: 70px;
+    height: 70px;
+    top: 9%;
+    left: 48%;
+    margin-bottom: -6%;
+}
+
+.dot1{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 9%;
+    left: 33%;
+}
+.dot2{
+    left: 58%;
+    top: 9%;
+}
+.nose{
+    width: 0px;
+    height: 0px;
+    border-top: 46px solid orange;
+    border-right: 4px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: 13%;
+    left: 31%;
+    transform: rotate(45deg);
+}
+.d1{
+    width: 7px;
+    height: 7px;
+    background-color: orange;
+    border-radius:50%;
+}
