@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: minmax(0px,400px) minmax(0px,1280px);
+    width: 100vw;
+    height: 100vh;
+    
+}
+.project{   
+    position: relative;
+    overflow:hidden ;
+    background-color: rgb(36,181,191);
+     display: flex;     
+}
+.profile{    
+    overflow: hidden;
+    background-color: #fff;   
+}
+.des{
+    background-color: rgb(36,181,191);
+    width: 102%;
+    height: 444px;
+    transform: rotate(47deg);
+    margin-top: -230px;
+    margin-left: -94px;
+    border-radius: 0 0 10% 0;
+    position: relative;
+}
+.pho{   
+    width: 118px;
+    height: 118px    ;
+    position: absolute;
+    bottom: 168px;
+    right: -59px;
+    transform: rotate(34deg);
+    border-radius: 50%;
+}
+.pho>img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: rotate(-91deg);
+}
+.about{  
+    width: 100%;
+    height: 35%;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ele{   
+    width:90% ;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.property{    
+    width: 212px;
+   
+}
+p{
+    font-family: cursive;   
+}
+label{
+    font: caption;
+}
+.doc{
+    width: 100%;
+    height: 15%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whitebox{
+    width: 51%;
+    height: 97%;
+    position: absolute;
+    right: -250px;
+    top: 0%;
+    color: white;
+   background-color: #fff;
+    transform: rotate(22deg);
+    border-radius: 1% 0% 0% 21%;
+}
+.pro{
+    width: fit-content;
+    height: fit-content;
+    color:white;    
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+}
+.lan{   
+    display: flex;
+    justify-content: center; 
+    margin-top: 5px;  
+}
+.sets{    
+    width: max-content;   
+}
+.g1{    
+    padding: 10px;
+    margin: 6px;
+    color: white;
+    border-radius: 20px;
+    background-color: #000000b8;   
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+    cursor: pointer;
+    text-decoration: none;
+}
+.g1:hover{
+    transform: scale(1.03);
+    transition: 0.5s
+}
+.tedcon{
+    width: max-content;
+    height: max-content;
+    position: relative;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ted1{    
+    width: 130px;
+        height: 130px;
+        background-color: white;
+        border-radius: 50%;       
+        top: 36%;
+        left: 46%;
+}
+.ted2{
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: -10%;
+}
+.ted3{
+    width: 70px;
+    height: 70px;
+    top: 9%;
+    left: 48%;
+    margin-bottom: -6%;
+}
+.dot1{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 9%;
+    left: 33%;
+}
+.dot2{
+    left: 58%;
+    top: 9%;
+}
+.nose{
+    width: 0px;
+    height: 0px;
+    border-top: 46px solid orange;
+    border-right: 4px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: 13%;
+    left: 31%;
+    transform: rotate(45deg);
+}
+.d1{
+    width: 7px;
+    height: 7px;
+    background-color: orange;
+    border-radius:50%;
+}
+.set-tedcon{
+    display: flex;
+    align-items: center;
+    margin-left: 18%;
+}
+@media only screen and (max-width:880px){
+    .whitebox{
+        display: none;
+    }
+    .project{
+        align-items: center;
+        justify-content: center;
+    }
+    .set-tedcon{
+        margin:0px;
+        flex-direction: column-reverse;
+    }
+    
+}
+@media only screen and (max-width:500px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 530px 450px;
+    }
+    
+}
+@media only screen and (max-width:320px){
+    .des{
+       transform: rotate(52deg);
+    }
+    
+}
