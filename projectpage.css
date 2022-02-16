@@ -116,6 +116,8 @@
     align-items: center;
     font-size: 20px;   
     color: #30aff9; 
+    cursor: pointer;
+    text-decoration: none;
 }
 .site-view:hover{
     background-color: #30aff9;
