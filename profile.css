@@ -31,13 +31,17 @@
     position: relative;
 }
 .pho{   
-    width: 118px;
-    height: 118px    ;
+    width: 104PX;
+    background-repeat: no-repeat;
+    height: 104px;
     position: absolute;
     bottom: 168px;
+    background-position: -15px -94px;
     right: -59px;
-    transform: rotate(34deg);
+    transform: rotate(-47deg);
     border-radius: 50%;
+    background-size: 138px,auto;
+    background-image: url(IMG20210114112228.jpg);
 }
 .pho>img{
     object-fit: cover;
