@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.overall{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid ;
+    overflow-x: hidden;
+    background-color: #efefef;
+}
+.top-container{
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141518;
+    background-image: url(backgroundfiller.png);
+}
+.header-container{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.header{
+    font-size: 46px;
+    color: #fff;
+    text-align: center;    
+}
+.header-name{
+    color: #0fd4ff;
+}
+.top-button{
+    background-color:transparent;
+    border:2px solid #fff;
+    color:#fff;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    text-decoration: none;
+}
+.top-button:hover{
+    background-color: #30aff9;
+    transition: 1s;
+}
+.top-button:hover .arrow{
+    transform: rotate(90deg);
+    transition: 1s;
+}
+.content-container{
+    background-color: transparent;
+    display: grid;
+    width: 100%;
+    height: max-content;
+    grid-template-rows: 100px 1fr;
+}
+.lan-name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lan-name{
+    font-size: 40px;
+    font-family: "Raleway-semibold";    
+}
+.content{
+    padding: 10px 0px 10px 20px ;
+    display: flex;
+    column-gap:20px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.elements{  
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 320px;
+    background-color: #fff;
+    /* border: 1px solid;  */
+    box-shadow: 0px 0px 4px 3px #dedede;
+    /* transform: scale(1.0); */
+}
+.site-name{
+    border: 1px solid transparent;
+    border-radius: 20px;    
+    padding: 5px 16px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 0px #dedede;
+}
+.site-img{
+    width: 150px;
+    height: 100px;  
+    object-fit: contain;  
+}
+.site-view{
+    width: max-content;
+   border-radius: 20px;
+    padding: 5px 16px;
+    border: 1px solid #30aff9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;   
+    color: #30aff9; 
+}
+.site-view:hover{
+    background-color: #30aff9;
+    transition: 1s;   
+    color: #fff;     
+}
+.elements:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
